@@ -1,0 +1,114 @@
+<!--
+1. Matricula: 029998000ADS000114 – Nome: Ana Carolina Braz de Souza
+2. Matricula: 029998000ADS000213 - Nome: Bruna Franco
+3. Matricula: 02999800TADS000067 - Nome: Rafael Hendges Coutinho
+4. Matricula: 029998000ADS000156 – Nome: Matheus Antonio Silva Pradella
+5. Matricula: 029998000ADS000165 – Nome: Michel Araújo Reis Marçal -->
+<!DOCTYPE html>
+<html lang="pt-br,en">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <title>Tela de Sistema</title>
+        <meta name="viemport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: linear-gradient(45deg, cyan,yellow);
+            }
+            .usuario{
+                color: white;
+            }
+            *{
+                margin: 0;
+                padding:0;
+                box-sizing:border-box;
+            }
+            .center{
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 1200px;
+                margin: auto;
+                padding: 2%;
+            }
+            .menu{
+                width: 100%;
+                text-align: right;
+                background-color: rgba(241, 237, 237, 0.9);
+            }
+            .menu a{
+                color:rgb(5, 5, 5);
+                text-decoration: nome;
+                font-weight: bold;
+                margin-right: 15px;
+            }
+            .favorito{
+                background-color: rgba(240, 235, 235, 0.9);
+                position: absolute;
+                top: 20%;
+                left: 20%;
+                transform: translate(-90%,-50%);
+                padding:10px;
+                border-radius:15px;
+                color: rgb(2, 2, 2);
+
+            }
+            .fav{
+                background-color: rgba(241, 237, 237, 0.9);
+                position: absolute;
+                top: 30%;
+                left: 10%;
+            
+                border-radius:15px;
+            }
+            .pend{
+                background-color: rgba(240, 235, 235, 0.9);
+                position: absolute;
+                top: 60%;
+                left: 20%;
+                transform: translate(-90%,-50%);
+                padding:10px;
+                border-radius:15px;
+                color: rgb(2, 2, 2);
+            }
+        
+        
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="center">
+                <div class="usuario">
+                    <a href="#">Nome do Administrado</a><br>
+                    <a href="#">IdAdministrado</a><br>
+                </div>
+                <div class="menu">
+                    <a>Home</a>
+                    <select>
+                        <option>Bloquiar</option>
+                        <option>Ativar</option>
+                        <option>Cadastar</option></select>
+                    <a><select>
+                        <option>Documentos</option>
+                        <option>Usuarios</option>
+                        <option>Grupos</option>
+                    </select></a>
+                    
+                    <a href="#">Menu</a>
+                    <a href="#">Grupos</a>
+                    <hr>
+                </div>
+                <div class="favorito">
+                    <h2>Favoritos:</h2>
+                </div>
+                <div class="fav">
+                    <button>Menus Favoritos</button>
+                </div>
+                <div class="pend">
+                    <h2>Pendencias:</h2>
+                </div>
+            
+            </div>
+        </header>
+
+    </body>
+</html>

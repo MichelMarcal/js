@@ -1,0 +1,113 @@
+<!--
+1. Matricula: 029998000ADS000114 – Nome: Ana Carolina Braz de Souza
+2. Matricula: 029998000ADS000213 - Nome: Bruna Franco
+3. Matricula: 02999800TADS000067 - Nome: Rafael Hendges Coutinho
+4. Matricula: 029998000ADS000156 – Nome: Matheus Antonio Silva Pradella
+5. Matricula: 029998000ADS000165 – Nome: Michel Araújo Reis Marçal -->
+<!DOCTYPE html>
+<html lang="pt-br,en">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <title>Tela de Bloqueio e Desbloqueio</title>
+        <style>
+            
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: linear-gradient(45deg, cyan,yellow);
+            }
+            .usuario{
+                color: white;
+            }
+
+            .documentacao{
+                background-color: rgba(250, 248, 248, 0.8);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                padding:90px;
+                border-radius:20px;
+        
+            }
+            .meusdados{
+                color:rgb(7, 7, 7);
+                text-decoration: nome;
+                font-weight: bold;
+                margin-left: 50px;
+                width: 100%;
+                
+            }
+            *{
+                margin: 0;
+                padding:0;
+                box-sizing:border-box;
+            }
+            .center{
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 1200px;
+                margin: auto;
+                padding: 2%;
+            }
+            .menu{
+                background-color: rgba(250, 249, 249, 0.9);
+                width: 100%;
+                text-align: right;
+            }
+            .menu a{
+                color:rgb(7, 7, 7);
+                text-decoration: nome;
+                width: 100%;
+                font-weight: bold;
+                text-align: right;
+                margin-right: 15px;
+            }
+            button{
+                background-color: dodgerblue;
+                border: nome;
+                padding: 15px;
+                border-radius: 10px;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="center">
+                <div class="usuario">
+                    <a href="#">Nome do Usuario</a><br>
+                    <a href="#">Ativo ou bloqueado</a>
+                </div>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">Documentos</a>
+                    <a href="#">Usuarios</a>
+                    <a href="#">Grupos</a>
+                </div>
+            </div>
+        
+            <div class="documentacao">
+                <h3>Usuario</h3>
+                <tableborder="2" >
+                    <tr>
+                        <th>Usuario</th>
+                        <th>Status</th>
+                        <th>Grupo</th>
+                        
+                    </tr>
+                    <tr>
+                        <td >Usuario01</td>
+                        <td>Ativo</td>
+                        <td>Grupo01</td>
+                        <td> 
+                            <select>
+                            <option>Bloquear</option>
+                            <option>Desbloquear</option>
+                        </select></td>
+                    </tr> 
+                </table><br>
+            <button>OK</button>
+            </div>
+        </header>
+    </body>
+</html>

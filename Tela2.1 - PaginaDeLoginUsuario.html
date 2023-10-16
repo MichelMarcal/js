@@ -1,0 +1,77 @@
+<!--
+1. Matricula: 029998000ADS000114 – Nome: Ana Carolina Braz de Souza
+2. Matricula: 029998000ADS000213 - Nome: Bruna Franco
+3. Matricula: 02999800TADS000067 - Nome: Rafael Hendges Coutinho
+4. Matricula: 029998000ADS000156 – Nome: Matheus Antonio Silva Pradella
+5. Matricula: 029998000ADS000165 – Nome: Michel Araújo Reis Marçal -->
+<!DOCTYPE html>
+<html lang="pt-br,en">
+    <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <title>Tela de Login</title>
+        <style>
+            a:visited {
+                color: blue;
+                text-decoration: none;
+            }
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: linear-gradient(45deg, cyan,yellow);
+            }
+            div{
+               background-color: rgba(0, 0, 0, 0.8);
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%,-50%);
+               padding:200px;
+               border-radius:15px;
+               font-size: 20px;
+               color: white;
+            }
+            input{
+               padding: 15px;
+               border: nome;
+            }
+    
+            button{
+               background-color: dodgerblue;
+               border: nome;
+               padding: 15px;
+               border-radius: 10px;
+               color: white;
+            }
+      
+
+        </style>
+    </body>
+    <body>
+        <form id="formCadastro">
+            <div class="div">
+                <h1>Area de login do Usuario</h1>
+                <p>
+                <label for="txtLogin">Login:</label>
+                <br>
+                <span onmouseover="executarFucaoMouseOver()">
+                <input type="text" id="txtLogin" name="txtLogin"
+                placeholder="Login" required>
+                </span>
+                </p>
+                <p>
+                <label for="txtSenha">Senha:</label>
+                <br>
+                <span onmouseover="executarFucaoMouseOver()">
+                <input type="text" id="txtSenha" name="txtSenha"
+                placeholder="Senha" required>
+                </span>
+                </p>
+                <button type="submit" id="btnLoga">Loga</button>
+                <br>
+                <a href="http://127.0.0.1:5500/Tela1.2-PaginaCadastroUsuario.html">Criar conta</a>
+            </div>
+        </form>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </body>
+</html>
